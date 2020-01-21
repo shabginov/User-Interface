@@ -64,3 +64,32 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.main-container {
+	width: 900px;
+	margin: auto;
+	border: 2px solid blue ;
+}
+
+header {
+	/* border: 1px solid brown; */
+	display: inline-block;
+	margin: 1px;
+}
+
+header nav {
+	display: inline-block;
+	margin: 10px;
+	/* border: 1px solid green; */
+}
+
+nav a {
+	margin: 20px;
+	color: gray;
+	text-decoration: none;
+	/* background-color: indianred; */
+}
+
+header img {
+	/* border: 1px solid green; */
+	margin: 5px;
+}
