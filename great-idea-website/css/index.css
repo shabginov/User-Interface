@@ -91,7 +91,7 @@ nav a {
 
 header img {
 	/* border: 1px solid green; */
-	margin: 5px;
+	margin: 1px;
 }
 
 /* section.innovation {
@@ -122,3 +122,30 @@ section.innovation img {
 	/* border: 1px solid goldenrod; */
 	margin-left: 80px;
 }
+
+div.main {
+	border: 3px solid green;
+}
+
+div.contents {
+	border: 1px solid red;
+}
+
+div.upper {
+	/* border: 1px solid brown; */
+	display: inline-block;
+	width: 400px;
+	margin: 20px;
+}
+
+div.lower {
+	/* border: 1px solid brown; */
+	display: inline-block;
+	width: 270px;
+	margin: 10px;
+}
+
+img.middle-img {
+	display: inline-block;
+}
+
