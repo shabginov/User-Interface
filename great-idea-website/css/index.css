@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 .main-container {
 	width: 900px;
 	margin: auto;
-	border: 2px solid blue ;
+	/* border: 2px solid blue ; */
 }
 
 header {
@@ -119,7 +119,6 @@ div button {
 }
 section.innovation img {
 	display: inline-block;
-	/* border: 1px solid goldenrod; */
 	margin-left: 80px;
 }
 
@@ -128,20 +127,20 @@ div.main {
 }
 
 div.contents {
-	border: 1px solid red;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 20px;
 }
 
 div.upper {
-	/* border: 1px solid brown; */
 	display: inline-block;
-	width: 400px;
+	width: 380px;
 	margin: 20px;
 }
 
 div.lower {
-	/* border: 1px solid brown; */
 	display: inline-block;
-	width: 270px;
+	width: 250px;
 	margin: 10px;
 }
 
@@ -149,3 +148,6 @@ img.middle-img {
 	display: inline-block;
 }
 
+p:last-child {
+	text-align: center;
+}
